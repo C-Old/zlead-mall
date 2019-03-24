@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall.iml" filepath="$PROJECT_DIR$/zlead-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-actuator/zlead-mall-actuator.iml" filepath="$PROJECT_DIR$/zlead-mall-actuator/zlead-mall-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-admin/zlead-mall-admin.iml" filepath="$PROJECT_DIR$/zlead-mall-admin/zlead-mall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-entity/zlead-mall-entity.iml" filepath="$PROJECT_DIR$/zlead-mall-entity/zlead-mall-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-protal/zlead-mall-protal.iml" filepath="$PROJECT_DIR$/zlead-mall-protal/zlead-mall-protal.iml" />
+    </modules>
+  </component>
+</project>

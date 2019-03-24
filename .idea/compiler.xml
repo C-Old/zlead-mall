@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zlead-mall-actuator" />
+        <module name="zlead-mall-admin" />
+        <module name="zlead-mall-entity" />
+        <module name="zlead-mall-protal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zlead-mall" target="1.8" />
+      <module name="zlead-mall-actuator" target="1.8" />
+      <module name="zlead-mall-admin" target="1.8" />
+      <module name="zlead-mall-entity" target="1.5" />
+      <module name="zlead-mall-protal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zlead-mall-actuator" options="-parameters" />
+      <module name="zlead-mall-admin" options="-parameters" />
+      <module name="zlead-mall-protal" options="-parameters" />
+    </option>
+  </component>
+</project>
