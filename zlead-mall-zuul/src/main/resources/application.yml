@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 8769
+spring:
+  application:
+    name: service-zuul
+zuul:
+  routes:
+    api-a:
+      path: /zlead-admin/**
+      service-id: zlead-mall-admin
+    api-b:
+      path: /zlead-protal/**
+      service-id: zlead-mall-protal
