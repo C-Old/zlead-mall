@@ -13,6 +13,8 @@
         <module>zlead-mall-protal</module>
         <module>zlead-mall-entity</module>
         <module>zlead-mall-actuator</module>
+        <module>zlead-mall-eureke</module>
+        <module>zlead-mall-zuul</module>
     </modules>
 
     <parent>
@@ -27,4 +29,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-eureka-server</artifactId>
+
+    </dependency>
+
+</dependencies>
+
 </project>
