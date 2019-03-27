@@ -6,12 +6,12 @@ server:
   port: 8769
 spring:
   application:
-    name: service-zuul
+    name: zlead-mall-zuul
 zuul:
   routes:
     api-a:
-      path: /zlead-admin/**
+      path: /zlead-mall-admin/**
       service-id: zlead-mall-admin
     api-b:
-      path: /zlead-protal/**
+      path: /zlead-mall-protal/**
       service-id: zlead-mall-protal
