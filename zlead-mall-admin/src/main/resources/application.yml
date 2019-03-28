@@ -11,3 +11,5 @@ spring:
 #    url: jdbc:mysql://116.62.124.171:3306/zleadf?useUnicode=true&characterEncoding=UTF-8&useSSL=false
 #    username: zleadfuser
 #    password: zlfA#2019
+logging:
+  config: classpath:logback-boot.xml
