@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/zlead-mall-admin/zlead-mall-admin.iml" filepath="$PROJECT_DIR$/zlead-mall-admin/zlead-mall-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/zlead-mall-entity/zlead-mall-entity.iml" filepath="$PROJECT_DIR$/zlead-mall-entity/zlead-mall-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/zlead-mall-protal/zlead-mall-protal.iml" filepath="$PROJECT_DIR$/zlead-mall-protal/zlead-mall-protal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-eureke/zlead-mall-server.iml" filepath="$PROJECT_DIR$/zlead-mall-eureke/zlead-mall-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-service/zlead-mall-service.iml" filepath="$PROJECT_DIR$/zlead-mall-service/zlead-mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zlead-mall-zuul/zlead-mall-zuul.iml" filepath="$PROJECT_DIR$/zlead-mall-zuul/zlead-mall-zuul.iml" />
     </modules>
   </component>
 </project>

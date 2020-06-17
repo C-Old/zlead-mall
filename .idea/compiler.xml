@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="zlead-mall-actuator" />
         <module name="zlead-mall-admin" />
         <module name="zlead-mall-entity" />
         <module name="zlead-mall-eureke" />
-        <module name="zlead-mall-protal" />
+        <module name="zlead-mall-server" />
         <module name="zlead-mall-zuul" />
+        <module name="zlead-mall-protal" />
+        <module name="zlead-mall-service" />
+        <module name="zlead-mall-actuator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="zlead-mall-entity" target="1.5" />
       <module name="zlead-mall-eureke" target="1.8" />
       <module name="zlead-mall-protal" target="1.8" />
+      <module name="zlead-mall-server" target="1.8" />
+      <module name="zlead-mall-service" target="1.8" />
       <module name="zlead-mall-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +34,8 @@
       <module name="zlead-mall-admin" options="-parameters" />
       <module name="zlead-mall-eureke" options="-parameters" />
       <module name="zlead-mall-protal" options="-parameters" />
+      <module name="zlead-mall-server" options="-parameters" />
+      <module name="zlead-mall-service" options="-parameters" />
       <module name="zlead-mall-zuul" options="-parameters" />
     </option>
   </component>

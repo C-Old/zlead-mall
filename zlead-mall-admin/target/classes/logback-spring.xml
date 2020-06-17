@@ -18,8 +18,8 @@
             <pattern>${FILE_LOG_PATTERN}</pattern>
         </encoder>
     </appender>
-    <root level="INFO">
+    <logger level ="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
-    </root>
+    </logger>
 </configuration>
